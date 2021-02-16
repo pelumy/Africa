@@ -10,6 +10,7 @@
 		04587D3C25DBB2B8003C6F6F /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587D3B25DBB2B8003C6F6F /* CoverImageModel.swift */; };
 		04587D4125DBB3E2003C6F6F /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587D4025DBB3E2003C6F6F /* CodableBundleExtension.swift */; };
 		04587D4525DBBC6E003C6F6F /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587D4425DBBC6E003C6F6F /* AnimalListItemView.swift */; };
+		04587D4825DBC06B003C6F6F /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587D4725DBC06B003C6F6F /* AnimalModel.swift */; };
 		04D678C825DAA6960012DF5F /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D678C725DAA6960012DF5F /* AfricaApp.swift */; };
 		04D678CA25DAA6960012DF5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D678C925DAA6960012DF5F /* ContentView.swift */; };
 		04D678CC25DAA6990012DF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D678CB25DAA6990012DF5F /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		04587D3B25DBB2B8003C6F6F /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		04587D4025DBB3E2003C6F6F /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		04587D4425DBBC6E003C6F6F /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		04587D4725DBC06B003C6F6F /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		04D678C425DAA6960012DF5F /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D678C725DAA6960012DF5F /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		04D678C925DAA6960012DF5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				04587D3B25DBB2B8003C6F6F /* CoverImageModel.swift */,
+				04587D4725DBC06B003C6F6F /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				04D6790325DAC6640012DF5F /* MainView.swift in Sources */,
 				04D6790725DAD5350012DF5F /* CoverImageView.swift in Sources */,
 				04587D3C25DBB2B8003C6F6F /* CoverImageModel.swift in Sources */,
+				04587D4825DBC06B003C6F6F /* AnimalModel.swift in Sources */,
 				04D678FD25DAC6370012DF5F /* MapView.swift in Sources */,
 				04D678C825DAA6960012DF5F /* AfricaApp.swift in Sources */,
 				04D678FA25DAC61A0012DF5F /* VideoListView.swift in Sources */,
