@@ -25,18 +25,67 @@ struct MapView: View {
 //        Map(coordinateRegion: $region)
 //        Advanced Map
         Map(coordinateRegion: $region, annotationItems: locations, annotationContent: { item in
-//            (A) PIN: always static
+//    (A) PIN: always static
 //            MapPin(coordinate: item.location, tint: .accentColor)
-//            (B) MARKER: always static
+//    (B) MARKER: always static
 //            MapMarker(coordinate: item.location, tint: .accentColor)
-//            (C) CUSTOM ANNOTATION
+//    (C) CUSTOM ANNOTATION: not interactive
+//            MapAnnotation(coordinate: item.location) {
+//                Image("logo")
+//                    .resizable()
+//                    .scaledToFit()
+//                    .frame(width: 32, height: 32, alignment: .center)
+//            }
+//    (D) COMPLEX CUSTOM ANNOTATION: could be interactive
             MapAnnotation(coordinate: item.location) {
-                Image("logo")
+                MapAnnotationView(location: item)
+            } //: ANNOTATION
+            
+        }) //: MAP
+        .overlay(
+            HStack(alignment: .center, spacing: 12) {
+                Image("compass")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 32, height: 32, alignment: .center)
-            }
-        }) //: ANNOTATION
+                    .frame(width: 48, height: 48, alignment: .center)
+                
+                VStack(alignment: .leading, spacing: 3, content: {
+                    HStack {
+                        Text("Latitude:")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                            .foregroundColor(.accentColor)
+                        Spacer()
+                        Text("\(region.center.latitude)")
+                            .font(.footnote)
+                            .foregroundColor(.white)
+                        
+                    } //: HSTACK
+                    Divider()
+                    HStack {
+                        Text("Longitude:")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                            .foregroundColor(.accentColor)
+                        Spacer()
+                        Text("\(region.center.longitude)")
+                            .font(.footnote)
+                            .foregroundColor(.white)
+                        
+                    } //: HSTACK
+                }) //: VSTACK
+                
+            } //: HSTACK
+            .padding(.vertical, 12)
+            .padding(.horizontal, 16)
+            .background(
+                Color.black
+                    .cornerRadius(8)
+                    .opacity(0.6)
+            )
+            .padding()
+            , alignment: .top
+        )
         
        
     }
