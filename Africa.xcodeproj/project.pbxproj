@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04580B2425DCF221006DDB17 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04580B2325DCF221006DDB17 /* LocationModel.swift */; };
 		04587D3C25DBB2B8003C6F6F /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587D3B25DBB2B8003C6F6F /* CoverImageModel.swift */; };
 		04587D4125DBB3E2003C6F6F /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587D4025DBB3E2003C6F6F /* CodableBundleExtension.swift */; };
 		04587D4525DBBC6E003C6F6F /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587D4425DBBC6E003C6F6F /* AnimalListItemView.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04580B2325DCF221006DDB17 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		04587D3B25DBB2B8003C6F6F /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		04587D4025DBB3E2003C6F6F /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		04587D4425DBBC6E003C6F6F /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				04587D3B25DBB2B8003C6F6F /* CoverImageModel.swift */,
 				04587D4725DBC06B003C6F6F /* AnimalModel.swift */,
 				04587D5E25DC2F34003C6F6F /* VideoModel.swift */,
+				04580B2325DCF221006DDB17 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				04D678FA25DAC61A0012DF5F /* VideoListView.swift in Sources */,
 				04587D5F25DC2F34003C6F6F /* VideoModel.swift in Sources */,
 				04D6790025DAC6500012DF5F /* GalleryView.swift in Sources */,
+				04580B2425DCF221006DDB17 /* LocationModel.swift in Sources */,
 				04587D5125DBF139003C6F6F /* InsetGalleryView.swift in Sources */,
 				04587D6225DC2FE5003C6F6F /* VideoListItemView.swift in Sources */,
 				04587D4125DBB3E2003C6F6F /* CodableBundleExtension.swift in Sources */,
