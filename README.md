@@ -32,7 +32,7 @@ Demos for the various platforms:
 - [iPad Demo](https://drive.google.com/file/d/10Y9A2YwiEd7wp4IkPeKtMHk3KKpQBZZH/view?usp=sharing)
 - [Mac Demo](https://drive.google.com/file/d/1y_YR0UGV410LTRvLNf4HQqoEy6_9J5p-/view?usp=sharing)
 
-https://drive.google.com/file/d//view?usp=sharing
+
 ### iPhone
 <p float = "left">
 <img src="https://drive.google.com/uc?export=view&id=1rva8Uu9adNzHAbxW_MXUsCTIbewlcP02" width = "300" >
@@ -67,7 +67,6 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * Latest version of XCode
 
 ### Installation
@@ -81,7 +80,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@itunu_raimi](https://twitter.com/itunu_raimi) - email@example.com
+Your Name - [@itunu_raimi](https://twitter.com/itunu_raimi) - chavitunu@gmail.com
 
 Project Link: [https://github.com/pelumy/Africa](https://github.com/pelumy/Africa)
 
